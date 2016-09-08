@@ -42,22 +42,22 @@ section{
 }
 
 #home{
-background-image: url("background_coffee.jpg");
+background-image: url("background_home.jpg");
 background-size:cover;
 }
 
 #about_me{
-background-image: url("notepad.jpg");
+background-image: url("background_notepad.jpg");
 background-size:cover;
 }
 
 #my_photos{
-background-image: url("background_camera.jpg");
+background-image: url("background_photos.jpg");
 background-size:cover;
 }
 
 #contacts{
-background-image: url("contacts.jpg");
+background-image: url("background_contacts.jpg");
 background-size:cover;
 }
 
