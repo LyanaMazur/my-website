@@ -31,29 +31,34 @@ body {
 } 
 
 .top_nav li a {  
-        color: blue;
+        color: #8B4513;
         }
 
 section{
+    position:relative;
     min-height: 600px;
     border-bottom: 10px #000 solid;
     padding-top: 60px; /*відстань кожної секції до заголовка, щоб секція не заходила до верху*/
 }
 
 #home{
-background-image: url("backgr1.jpg");
+background-image: url("background_coffee.jpg");
+background-size:cover;
 }
 
 #about_me{
-background-image: url("backgr2.jpg");
+background-image: url("notepad.jpg");
+background-size:cover;
 }
 
 #my_photos{
-background-image: url("backgr3.jpg");
+background-image: url("background_camera.jpg");
+background-size:cover;
 }
 
 #contacts{
-background-image: url("backgr4.png");
+background-image: url("contacts.jpg");
+background-size:cover;
 }
 
 #my_photo {
@@ -71,10 +76,25 @@ background-image: url("backgr4.png");
     display: inline-block;
 }
 
-/*#h_1 { position: relative;
-       margin-left: 200px;
-       margin-top: 50px;
-        }*/
+#h_1 { position: relative;
+       margin-left: 100px;
+       margin-top: 20px;
+       color: white;
+}
+
+.bottom_nav{
+    position: absolute;
+    bottom: 0;
+    height:70px;
+    padding: 10px;
+    left: 40%;
+}
+.bottom_nav ul li{
+    display: inline-block;
+}
+.bottom_nav ul li a{
+    padding: 10px;
+}
 
 footer {
   color:black;

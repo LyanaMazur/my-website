@@ -5,6 +5,7 @@
 
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
     <header id="top">
@@ -16,50 +17,68 @@
              <li><a href="#contacts">CONTACTS</a></li>
          </ul>    
         </nav>
+                
     </header>
 
     <section id="home">
     <div class="container">
-        <img id="my_photo" src="myphoto.jpg" alt="My photography">
+        <!--<img id="my_photo" src="background_coffee.jpg" alt="My photography">-->
         <h1 id="h_1"> Hello, my name is Roxolana Mazur, and this is my personal website :)</h1>
     </div>
+        <nav class="bottom_nav">
+                <ul>
+                <li><a href="https://www.facebook.com"  target="_blank"> <img src="facebook.png" width="50" height="50" alt="Facebook-icon"></a></li>
+                </ul>
+        </nav>
     </section>
     
     <section id="about_me">
     This is my second section   
     </section>
+    
     <section id="my_photos">
-    This is my third section    
+    <img id="myImg1" class="images" src="myphoto1.jpg" alt="Photo №1">
+    <img id="myImg2" class="images" src="myphoto2.jpg" alt="Photo №2">
+    <img id="myImg3" class="images" src="myphoto3.jpg" alt="Photo №3">
+    <img id="myImg4" class="images" src="myphoto4.jpg" alt="Photo №4">
+    <img id="myImg5" class="images" src="myphoto5.jpg" alt="Photo №5">
+    <img id="myImg6" class="images" src="myphoto6.jpg" alt="Photo №6">
+    <img id="myImg7" class="images" src="myphoto7.jpg" alt="Photo №7">
+    <img id="myImg8" class="images" src="myphoto8.jpg" alt="Photo №8">
+    <img id="myImg9" class="images" src="myphoto9.jpg" alt="Photo №9">
+    <img id="myImg10" class="images" src="myphoto10.jpg" alt="Photo №10">
     </section>
+    
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <span class="next">></span>
+  <span class="prev"><</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+    
     <section id="contacts">
-    This is my fourth section    
+    <h1>Contact Me!</h1>
+    <form>
+        <p id="thanks"></p>
+        <label for="name">Your name</label>
+        <input type="text" id="name">
+        <br>
+        
+        <label for="email">Your email:</label>
+        <input type="email" id="email">
+        <br>
+        <label for "message">Your message</label>
+        <input type="textarea" id="msg">
+        <br>
+        <button id="btn-send">Send</button>
+    </form>   
     </section>
     
 <footer><p>Designed by Roxolana Mazur</p></footer>
-
 <script   src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="index.js"></script>
-
-    <title>Roxolana Mazur</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>My personal web site!!!</h1>
-    </header>
-    <nav>
-               <ul class="menu">
-		            <li>HOME</li>
-	            	<li>ABOUT ME</li>
-	            	<li>MY PHOTOS</li>
-	            	<li>CONTACT ME</li>
-	           </ul>
-            </nav>
-            <section>
-                <img id="my_photo" src="me.jpg" alt="My photograph">
-                <h1 id="my_name">Roxolana Mazur</h1>
-            </section>
-  <footer>Designed by Roxolana Mazur</footer>
-  
 </body>
 </html>
