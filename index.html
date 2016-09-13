@@ -1,96 +1,111 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="media.css">
-</head>
-<body>
-    <header id="top">
-        <nav class="top_nav">
-         <ul>
-             <li><a href="#home">HOME PAGE</a></li>
-             <li><a href="#about_me">ABOUT ME</a></li>
-             <li><a href="#my_photos">MY PHOTOGRAPHS</a></li>
-             <li><a href="#contacts">CONTACTS</a></li>
-         </ul>    
-        </nav>
-                
-    </header>
-
-    <section id="home">
-    <div class="container">
-        <h1 id="h_1" class="type_writer"> Hello, I am Roxolana Mazur and this is my personal website :)</h1>
-    </div>
-        <nav class="bottom_nav">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="media.css">
+    </head>
+    <body>
+        <header id="top">
+            <nav class="top_nav">
                 <ul>
-                <li><a href="//www.facebook.com/profile.php?id=100009647670575"  target="_blank"> <img src="facebook.png" width="50" height="50" alt="Facebook-icon"></a></li>
-                <li><a href="//vk.com/id9169260"  target="_blank"> <img src="vk.png" width="50" height="50" alt="vk-icon"></a></li>
-                <li><a href="//github.com/LyanaMazur"  target="_blank"> <img src="github.jpg" width="50" height="50" alt="github-icon"></a></li>
+                    <li>
+                        <a href="#home">HOME PAGE</a>
+                    </li>
+                    <li>
+                        <a href="#about_me">ABOUT ME</a>
+                    </li>
+                    <li>
+                        <a href="#my_photos">MY PHOTOGRAPHS</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">CONTACTS</a>
+                    </li>
                 </ul>
-        </nav>
-    </section>
-    
-    <section id="about_me">
-    <img id="my_photo" src="myphoto.jpg" alt="My photo">   
-    <p id="info_about_me"> My name is Lyana :) and I would like to be a web developer.<br>
-    I am studying HTML, CSS and Javascript.<br>
-    I am all eager to start work in IT company.<br>
-    I enjoy travelling and taking photography very much.<br>
-    My hobby is embroidery.<br>
-    My dream is to visit Europe. I hope it will come true soon!</p>   
-    </section>
-    
-    <section id="my_photos">
-    <img id="myImg1" class="images" src="myphoto1.jpg" alt="Photo №1">
-    <img id="myImg2" class="images" src="myphoto2.jpg" alt="Photo №2">
-    <img id="myImg3" class="images" src="myphoto3.jpg" alt="Photo №3">
-    <img id="myImg4" class="images" src="myphoto4.jpg" alt="Photo №4">
-    <img id="myImg5" class="images" src="myphoto5.jpg" alt="Photo №5">
-    <img id="myImg6" class="images" src="myphoto6.jpg" alt="Photo №6">
-    <img id="myImg7" class="images" src="myphoto7.jpg" alt="Photo №7">
-    <img id="myImg8" class="images" src="myphoto8.jpg" alt="Photo №8">
-    <img id="myImg9" class="images" src="myphoto9.jpg" alt="Photo №9">
-    <img id="myImg10" class="images" src="myphoto10.jpg" alt="Photo №10">
-    </section>
-    
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">×</span>
-  <span class="next">>></span>
-  <span class="prev"><<</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-    
-    <section id="contacts">
-    <h1 id="form_h1">Contact Me!!!</h1>
-    <div>
-    <form class="myform">
-        <p id="thanks"></p>
-        <label for="name">Your name:</label><br>
-        <input type="text" id="name" placeholder="Your name" required>
-        <br>
-        
-        <label for="email">Your email:</label><br>
-        <input type="email" id="email" placeholder="Your email" required>
-        <br>
-        
-        <label for="msg">Your message:</label>
-        <textarea name="text_area" id="msg" placeholder="Write Your message here" required>
-        </textarea>
-        <br>
-        
-        <button id="btn-send">Send</button>
-    </form>
+            </nav>
+        </header>
+        <section id="home">
+            <div class="container">
+                <h1 id="h_1" class="type_writer">Hello, I am Roxolana Mazur and this is my personal website :)</h1>
+            </div>
+            <nav class="bottom_nav">
+                <ul>
+                    <li>
+                        <a href="//www.facebook.com/profile.php?id=100009647670575" target="_blank">
+                            <img src="facebook.png" width="50" height="50" alt="Facebook-icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="//vk.com/id9169260" target="_blank">
+                            <img src="vk.png" width="50" height="50" alt="vk-icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="//github.com/LyanaMazur" target="_blank">
+                            <img src="github.jpg" width="50" height="50" alt="github-icon">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="about_me">
+            <img id="my_photo" src="myphoto.jpg" alt="My photo">
+            <p id="info_about_me">
+                My name is Lyana :) and I would like to be a web developer.<br>
+                I am studying HTML, CSS and Javascript.<br>
+                I am all eager to start work in IT company.<br>
+                I enjoy travelling and taking photography very much.<br>
+                My hobby is embroidery.<br>My dream is to visit Europe. I hope it will come true soon!
+            </p>
+        </section>
+        <section id="my_photos">
+            <img id="myImg1" class="images" src="myphoto1.jpg" alt="Photo №1">
+            <img id="myImg2" class="images" src="myphoto2.jpg" alt="Photo №2">
+            <img id="myImg3" class="images" src="myphoto3.jpg" alt="Photo №3">
+            <img id="myImg4" class="images" src="myphoto4.jpg" alt="Photo №4">
+            <img id="myImg5" class="images" src="myphoto5.jpg" alt="Photo №5">
+            <img id="myImg6" class="images" src="myphoto6.jpg" alt="Photo №6">
+            <img id="myImg7" class="images" src="myphoto7.jpg" alt="Photo №7">
+            <img id="myImg8" class="images" src="myphoto8.jpg" alt="Photo №8">
+            <img id="myImg9" class="images" src="myphoto9.jpg" alt="Photo №9">
+            <img id="myImg10" class="images" src="myphoto10.jpg" alt="Photo №10">
+        </section>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">×</span>
+            <span class="next">>></span>
+            <span class="prev">
+                <<</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
         </div>
-    </section>
-    
-<footer><p>Designed by Roxolana Mazur</p></footer>
-<script   src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="index.js"></script>
-</body>
+        <section id="contacts">
+            <h1 id="form_h1">Contact Me!!!</h1>
+            <h3 class="form_h3">My email: qweenlyana@gmail.com</h3>
+            <h3 class="form_h3">My phone: 093 457 95 57</h3>
+            <div>
+                <form class="myform">
+                    <p id="thanks"></p>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Enter the name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter the email" required>
+                    <br>
+                    <label for="msg">Your message:</label>
+                    <textarea name="text_area" id="msg" placeholder="Write Your message here" required></textarea>
+                    <br>
+                    <button id="btn-send">Send</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>Designed by Roxolana Mazur</p>
+        </footer>
+        <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
 </html>
