@@ -22,18 +22,25 @@
 
     <section id="home">
     <div class="container">
-        <!--<img id="my_photo" src="background_coffee.jpg" alt="My photography">-->
-        <h1 id="h_1"> Hello, my name is Roxolana Mazur, and this is my personal website :)</h1>
+        <h1 id="h_1" class="type_writer"> Hello, I am Roxolana Mazur and this is my personal website :)</h1>
     </div>
         <nav class="bottom_nav">
                 <ul>
-                <li><a href="https://www.facebook.com"  target="_blank"> <img src="facebook.png" width="50" height="50" alt="Facebook-icon"></a></li>
+                <li><a href="//www.facebook.com/profile.php?id=100009647670575"  target="_blank"> <img src="facebook.png" width="50" height="50" alt="Facebook-icon"></a></li>
+                <li><a href="//vk.com/id9169260"  target="_blank"> <img src="vk.png" width="50" height="50" alt="vk-icon"></a></li>
+                <li><a href="//github.com/LyanaMazur"  target="_blank"> <img src="github.jpg" width="50" height="50" alt="github-icon"></a></li>
                 </ul>
         </nav>
     </section>
     
     <section id="about_me">
-    This is my second section   
+    <img id="my_photo" src="myphoto.jpg" alt="My photo">   
+    <p id="info_about_me"> My name is Lyana :) and I would like to be a web developer.<br>
+    I am studying HTML, CSS and Javascript.<br>
+    I am all eager to start work in IT company.<br>
+    I enjoy travelling and taking photography very much.<br>
+    My hobby is embroidery.<br>
+    My dream is to visit Europe. I hope it will come true soon!</p>   
     </section>
     
     <section id="my_photos">
@@ -60,21 +67,26 @@
 </div>
     
     <section id="contacts">
-    <h1>Contact Me!</h1>
-    <form>
+    <h1 id="form_h1">Contact Me!!!</h1>
+    <div>
+    <form class="myform">
         <p id="thanks"></p>
-        <label for="name">Your name</label>
-        <input type="text" id="name">
+        <label for="name">Your name:</label><br>
+        <input type="text" id="name" placeholder="Your name" required>
         <br>
         
-        <label for="email">Your email:</label>
-        <input type="email" id="email">
+        <label for="email">Your email:</label><br>
+        <input type="email" id="email" placeholder="Your email" required>
         <br>
-        <label for "message">Your message</label>
-        <input type="textarea" id="msg">
+        
+        <label for="msg">Your message:</label>
+        <textarea name="text_area" id="msg" placeholder="Write Your message here" required>
+        </textarea>
         <br>
+        
         <button id="btn-send">Send</button>
-    </form>   
+    </form>
+        </div>
     </section>
     
 <footer><p>Designed by Roxolana Mazur</p></footer>

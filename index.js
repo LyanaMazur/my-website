@@ -1,4 +1,5 @@
 
+//slow scroll
 
 $(document).ready(function(){
     $(".top_nav").on("click","a",function (event){
@@ -132,8 +133,31 @@ $(function(){
         },
         dataType: "json",
         success: function() {
-            $('#thanks').html('Thank You for contacting us!');
+            $('#thanks').html('Thank You for contacting me :)!');
         }
 });
     
 };
+// -------------------------------------------------------------
+//for printing h1 on the home page letter by letter
+var text = $('.type_writer').text();
+
+var length = text.length;
+var timeOut;
+var character = 0;
+
+
+(function typeWriter() { 
+    timeOut = setTimeout(function() {
+        character++;
+        var type = text.substring(0, character);
+        $('.type_writer').text(type);
+        typeWriter();
+
+        if (character == length) {
+            clearTimeout(timeOut);
+        }
+
+    }, 70);
+}());
+// -------------------------------------------------------------
